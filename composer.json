@@ -1,0 +1,27 @@
+{
+  "name": "larva/laravel-ask",
+  "description": "This is a Ask.",
+  "keywords": [ "laravel", "question", "answer" ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "ext-bcmath": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larva\\Ask\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Larva\\Ask\\AskServiceProvider"
+      ]
+    }
+  },
+  "prefer-stable": true
+}
